@@ -1,0 +1,790 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    box-sizing: border-box;
+}
+
+
+.nav-bar{
+    height: 60px;
+    background-color: #131921;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
+
+
+
+.nav-logo{
+    height: 100px;
+    width: 150px;
+    position: relative;
+    left: 2px;
+    top: 2px;
+}
+
+
+
+.logo{
+    background-image: url("img/amazon.png");
+    /* background-image: url(https://i0.wp.com/www.dafontfree.co/wp-content/uploads/2021/11/Amazon-Logo-Font-1-scaled.jpg?resize=2560%2C1578); */
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+    position: relative;
+    top: -30px;
+    left: -30px;
+
+}
+
+
+
+.bordar{
+    border: 1.5px transparent;
+}
+
+
+
+.bordar:hover{
+    border: 1.5px solid #ffff;
+}
+
+
+
+/* box-2 */
+
+
+.add-1{
+
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    position: relative;
+    top: -0px;
+
+}
+
+
+
+
+.add-2{
+
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 5px;
+    position: relative;
+    top: -10px;
+
+}
+
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+/* box-3 */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #febd69;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+
+
+
+.search-select{
+    background-color: #e6e6e6;
+    width: 50px;
+    height: 38.080;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+
+
+
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    
+}
+
+
+
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 8px;
+}
+
+
+
+
+/* .nav-search.bordar:active:{
+    border: 2px solid #ffa500;
+} */
+
+
+.nav-search.bordar:hover{
+    border: 2px solid #ffa500;
+}
+
+
+
+
+/* box-4 */
+
+
+.nav-return{
+    padding: 8px;
+}
+
+.nav-singin{
+    padding: 8px;
+}
+
+
+
+.nav-1{
+    font-size: 0.7rem;
+    margin-top: -2px;
+    position: relative;
+    top: 0px;
+}
+
+
+
+
+.nav-2{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+
+/* box-5 */
+
+.english-1{
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.english-1> p{
+    font-size: 0.85rem;
+    position: relative;
+    top: 10px;
+    
+}
+
+.english-image{
+    width: 30px;
+    
+}
+
+
+.english-image> img{
+    width: 100%;
+    margin: -5px;
+}
+
+
+/* box-6 */
+
+
+
+.nav-cart> i{
+    font-size: 30px;
+   
+}
+
+
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 8px;
+}
+
+
+
+
+
+
+
+.panel{
+    background-color: #232f3e;
+    color: #ffffff;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+
+.panel-ops> a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 8px;
+    font-size: 15px;
+    padding: 8px;
+}
+
+
+
+.panel-ops{
+    width: 95%;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 8px;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.font {
+    font-size: 20px;
+    position: relative;
+    top: -12px;
+}
+
+
+
+
+
+/* hero section */
+
+
+
+ .hero{
+    z-index: 0.1;
+/*    background-image: url("https://m.media-amazon.com/images/I/71nwqPZaNRL._SX3000_.jpg");
+    background-size: cover;
+    height: 300px;*/
+} 
+
+
+.hero-1{
+    background-image: url("img/box06.jpg");
+    background-size: cover;
+    height: 300px;
+}
+
+
+
+
+
+
+/* shop */
+
+
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #e3e6e6;
+    
+    
+}
+
+.carousel-control-prev-icon{
+    position: relative;
+    top: -180px;
+    background-color: #eec2dc;
+   
+}
+
+.carousel-control-next-icon {
+    position: relative;
+    top: -180px;
+   background-color: #eec2dc;
+}
+    
+
+
+
+
+.box{
+   
+    height: 100%;
+    width: 22%;
+    background-color: #ffffff;
+    padding: 20px 0px 15px;
+    margin: 15px;
+    transition: ease;
+    
+}
+
+
+.box-img{
+    height: 200px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+    
+}
+
+
+
+.box-content> p{
+    color: #007185;
+    
+}
+
+
+
+
+
+/* footer */
+
+
+li{
+    list-style: none;
+}
+
+h3{
+    font-size: 15px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 35px;
+}
+
+h2{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.ul-1{
+    margin-top: 50px;
+}
+
+
+
+li:hover{
+    text-decoration: underline;
+}
+
+
+
+ul> li> a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: -10px;
+    color: #dddddd;
+}
+
+
+.foot-1{
+    margin-bottom: -25px;
+}
+
+
+p{
+    margin-bottom: 0rem;
+
+}
+
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-1> a> p{
+    background-color: #37475a;
+    color: #ffffff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    
+}
+
+
+.foot-1> a> p:hover{
+    background-color: #4a596c;
+}
+
+
+.foot-2{
+    background-color: #232f3e;
+    height: 500px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+#foot-3{
+    background-color: #232f3e;
+    border-top: 0.5px solid lightgray;
+    color: white;
+    height: 100px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.english{
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+    
+}
+
+
+#fa-solid{
+margin: 5px;
+font-size: 15px;
+}
+
+.Dollar{
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+#fa-solid{
+    font-size: 15px;
+    position: relative;
+    left: -10px;
+}
+
+
+.Dollar-1{
+font-size: 20px;
+position: relative;
+left: -10px;
+}
+
+
+.States{
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#usa{
+    font-size: 15px;
+position: relative;
+left: -10px;
+}
+
+
+.logo-1{
+    background-image: url("img/amazon.png");
+    background-size: cover;
+    height: 100px;
+    width: 150px;
+    position: relative;
+    top: -10px;
+    left: -80px;
+}
+
+
+.foot-4{
+    background-color: #131a22;
+    color: #ffffff;
+    height: 70px;
+    font-size: 0.7rem;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+
+.foot-4> .pages> a{
+   margin: -2px;
+}
+
+
+.foot-4> .pages> a:hover{
+    text-decoration: underline;
+ }
+
+
+.pages{
+   
+
+    position: relative;
+    top: 20px;
+
+}
+
+
+
+
+.copy{
+   
+    padding-top: 20px;
+
+
+}
+
+
+
+
+.english{
+    border: 0.5px solid #d3d3d3;
+    border-radius: 2px;
+    padding: 5px;
+    width: 100px;
+    height: 25px;
+}
+
+
+
+.Dollar{
+    border: 0.5px solid #d3d3d3;
+    border-radius: 2px;
+    padding: 5px;
+    width: 150px;
+    height: 25px;
+}
+
+
+
+.States{
+    border: 0.5px solid #d3d3d3;
+    border-radius: 2px;
+    padding: 5px;
+    width: 150px;
+    height: 25px;
+}
+
+
+.font1{
+    top: 10px;
+    
+}
+
+
+ul>li>a{
+    margin: 10px;
+    text-decoration: none;
+}
+
+
+.color{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a{
+      text-decoration: none;  
+}
+
+@media screen and (max-width: 2000px) {
+
+.foot-1> a> p{
+    height: 100px;
+}
+.carousel-control-prev, .carousel-control-next{
+    display: none;
+}
+}
+
+@media screen and (max-width: 1000px) {
+
+    .box{
+        width: 29%;
+    }
+    .foot-1> a> p{
+        height: 80px;
+    }
+}
+@media screen and (max-width: 900px) {
+
+    .box{
+        width: 29%;
+    }
+    .carousel-control-prev, .carousel-control-next{
+        display: none;
+    }
+}
+@media screen and (max-width: 800px) {
+
+    .box{
+        width: 45%;
+    }
+
+    .logo-1{
+        position: relative;
+        left: -50px;
+    }
+    .foot-1> a> p{
+        height: 60px;
+    }
+}
+@media screen and (max-width: 600px) {
+
+    .box{
+        width: 44%;
+    }
+    .nav-address, .add-1, .add-icon, .add-2, .english-1, .english, .font1, .nav-singin, .nav-1, .nav-2, .nav-return, .nav-1, .nav-2, .nav-cart, .fa-solid, .panel{
+        display: none;
+    }
+    .logo{
+        width: 150px;
+        position: relative;
+        top: -25px;
+        left: -10px 
+    }
+    .logo-1{
+        position: relative;
+        left: -35px;
+    }
+}
+@media screen and (max-width: 500px) {
+
+    .box{
+        width: 70%;
+    }
+    h3{
+        font-size: 10px;
+    }
+    ul>li>a{
+        font-size: 10px;
+    }
+    .Dollar, .States, .english{
+        padding: 0px;
+        font-size: 10px;
+    }
+    .nav-address, .add-1, .add-icon, .add-2, .english-1, .english, .font1, .nav-singin, .nav-1, .nav-2, .nav-return, .nav-1, .nav-2, .nav-cart, .fa-solid, .panel{
+        display: none;
+    }
+    .logo{
+        width: 150px;
+        position: relative;
+        top: -25px;
+        left: -20px 
+    }
+    .logo-1{
+        position: relative;
+        left: -15px;
+    }
+
+.foot-2{
+    height: 350;
+}
+    
+}
+@media screen and (max-width: 400px) {
+
+    .box{
+        width: 90%;
+    }
+    h3{
+        font-size: 10px;
+    }
+    .Dollar, .States, .english{
+    font-size: 5px;
+    }
+    h3{
+    font-size: 5px;
+    }
+    ul>li>a{
+    font-size: 5px;
+    }
+    .logo-1{
+        position: relative;
+        left: -10px;
+    }
+    
+    .nav-address, .carousel-control-prev, .carousel-control-next, .add-1, .add-icon, .add-2, .english-1, .english, .font1, .nav-singin, .nav-1, .nav-2, .nav-return, .nav-1, .nav-2, .nav-cart, .fa-solid, .panel{
+        display: none;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: 2px;
+        left: -10px 
+    }
+    .search-select {
+        width: 40px;
+        height: 30px;
+    }
+    .search-input{
+        height: 30px;
+        position: relative;
+        top: 0px;
+    }
+    
+    .nav-search{
+        height: 30px;
+        position: relative;
+        top: -2px;
+    }
+    p {
+        margin-bottom: 1rem;
+    }
+    .foot-1> a> p{
+        font-size: 0.65rem;
+    }
+    .foot-2{
+        height: 350;
+    }
+}
+
+
+
+
+
+
+
